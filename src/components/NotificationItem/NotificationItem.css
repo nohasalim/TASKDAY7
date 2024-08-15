@@ -1,0 +1,53 @@
+.itemDiv{
+  background-color: rgb(252, 251, 250);
+  border-radius: 10px;
+}
+.noteDiv {
+  display: flex;
+  align-items:top;
+  width: 100%;
+  margin: 10px 0px 0px 0px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+}
+img {
+  width: 50px;
+  height: 50px;
+  margin: 0px 2px 0px 2px;
+}
+#username {
+  width:auto;
+  font-weight: bold;
+  margin: 0px 2px 0px 2px;
+}
+#description,
+#time {
+  color: gray;
+  margin: 0px 2px 0px 2px;
+}
+#time{
+  margin-left: 60px;
+}
+#comment {
+  font-weight: bold;
+  color: rgb(57, 57, 100);
+  margin: 0px 2px 0px 2px;
+}
+  #unreaddot {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+
+}
+.message{
+  width: 85%;
+  margin-left: 11%;
+  margin-top: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid rgb(151, 149, 149);
+  border-radius: 10px;
+  color: gray;
+}
